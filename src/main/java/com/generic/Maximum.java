@@ -39,13 +39,13 @@ public class Maximum<T extends Comparable<T>> // T-Any type of Datatype can be u
     public static void main(String[] args) {
         System.out.println("Welcome to Generic Problems: ");
         System.out.println("Test Case 1: Max Number At 1st Position.");
-        Maximum<Integer> m1 = new Maximum<Integer>(8, 5, 3);
+        Maximum<Float> m1 = new Maximum<Float>(8.8f, 5.7f, 3.667f);
         m1.maximum();
         System.out.println("Test Case 2: Max Number At 2nd Position.");
-        Maximum<Integer> m2 = new Maximum<Integer>(5, 8, 3);
+        Maximum<Float> m2 = new Maximum<Float>(5.33f, 8.444f, 3.8f);
         m2.maximum();
         System.out.println("Test Case 3: Max Number At 3rd Position.");
-        Maximum<Integer> m3 = new Maximum<Integer>(3, 5, 8);
+        Maximum<Float> m3 = new Maximum<Float>(3.54f, 5.23f, 8.044f);
         m3.maximum();
     }
 }
