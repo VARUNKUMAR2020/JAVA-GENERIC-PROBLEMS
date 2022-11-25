@@ -38,14 +38,14 @@ public class Maximum<T extends Comparable<T>> // T-Any type of Datatype can be u
 
     public static void main(String[] args) {
         System.out.println("Welcome to Generic Problems: ");
-        System.out.println("Test Case 1: Max Number At 1st Position.");
-        Maximum<Float> m1 = new Maximum<Float>(8.8f, 5.7f, 3.667f);
+        System.out.println("Test Case 1: Max String At 1st Position.");
+        Maximum<String> m1 = new Maximum<String>("Varun", "Chennai", "Hero");
         m1.maximum();
         System.out.println("Test Case 2: Max Number At 2nd Position.");
-        Maximum<Float> m2 = new Maximum<Float>(5.33f, 8.444f, 3.8f);
+        Maximum<String> m2 = new Maximum<String>("course", "java", "Bridgelabs");
         m2.maximum();
         System.out.println("Test Case 3: Max Number At 3rd Position.");
-        Maximum<Float> m3 = new Maximum<Float>(3.54f, 5.23f, 8.044f);
+        Maximum<String> m3 = new Maximum<String>("India", "Dhoni", "Cricket");
         m3.maximum();
     }
 }
